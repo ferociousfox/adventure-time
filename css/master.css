@@ -1,0 +1,149 @@
+.top {
+    background: url(../img/ice-kingdom.png) no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head ul {padding: 29px;}
+
+.head {
+    text-align: right;
+    position: relative;
+}
+
+.head li {
+    display: inline;
+}
+
+.head img {
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 15px;
+}
+
+.btn {
+    border-radius: 6px;
+    border: 2px solid whitesmoke;
+    padding: 4px;
+}
+
+a.btn.opaque {
+    background-color: #9cfeff;
+    color: black;
+}
+
+.main {
+    text-align: center;
+    margin-top: 98px;
+}
+
+.main > span {
+    display: block;
+    margin: auto auto -62px;
+}
+
+h1 {
+    font-size: 81px;
+}
+
+.main p {
+    font-size: 50px;
+    margin-top: -43px;
+    font-style: italic;
+}
+
+.main button {
+    padding: 18px 20px 18px 71px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+}
+
+button.btn.stories {
+    background: #ffffff73;
+    border-color: #fff;
+    color: #fff;
+}
+
+button.btn.signin {
+    background: #e84a9b;
+    border-color: #ffc9d2;
+}
+
+button.btn.signin span:before {
+    content: url(../img/princess.png);
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+span {}
+
+button.btn.stories span:before {
+    content: url(../img/finn.png);
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+
+img {}
+
+.main > img {
+    width: 179px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.appstore-btn img {
+    width: 200px;
+}
+
+.bottom {
+    margin-bottom: 140px;
+}
+
+.appstore-btn {
+    margin-right: 20px;
+}
+
+h6 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.travel-btn {
+    border-radius: 5px;
+    background: #fff6;
+    padding: 0 11px 0 51px;
+    color: #fff;
+    font-size: 28px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.travel-btn:before {
+    content: url(../img/jake.png);
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.travel-btn h5 {padding: 17px;margin: 0;}
